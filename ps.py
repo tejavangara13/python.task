@@ -46,8 +46,70 @@
 # total=maths+physics+chemistry
 # print("total marks:",total)
 
-maths=85
-physics=90
-chemistry=88
-average=(maths+physics+chemistry)/3
-print("average_marks:",average)
+# maths=85
+# physics=90
+# chemistry=88
+# average=(maths+physics+chemistry)/3
+# print("average_marks:",average)
+
+
+# num=int(input("Enter a number:"))
+# if num % 2==0:
+#     print("Even number")
+# else:
+#     print("Odd number")    
+
+# num=int(input("Enter a number:"))
+# if num % 5==0:
+#     print("satisfy")
+# else:
+#     print("not satisfy")    
+
+# a=4
+# b=7
+# if a<b:
+#     print("smallest number is:",a)
+# else:
+#     print("smallest number is:",b)    
+
+# num=int(input("Enter a number:"))
+# if num % 2==0 and num % 3==0:
+#     print("satisfy")
+# else:
+#     print("not satisfy")    
+
+# age=int(input("Enter age:"))
+# if age>=18:
+#     print("eligble to vote")
+# else:
+#     print("not eligible vote")    
+
+# maths=40
+# physics=20
+# chemistry=36
+# count=0
+# if maths>=35:
+#     count+=1
+# if physics>=35:
+#     count+=1
+# if chemistry>35:
+#     count+=1
+# if count>=2:            
+#     print("Pass")
+# else:
+#     print("Fail")   
+# 
+maths=20
+physics=38
+chemistry=25
+count=0
+if maths>=35:
+    count+=1
+if physics>=35:
+    count+=1
+if chemistry>=35:
+    count+=1
+if count>=1:
+    print("pass")
+else:
+    print("fail")    
