@@ -4,7 +4,6 @@
 class Vehicle:
     category = "Automobile"
     def __init__(self, brand, model, year):
-        # Instance Variables
         self.brand = brand
         self.model = model
         self.year = year
