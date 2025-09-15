@@ -1,4 +1,4 @@
-#Abstractmethod class person
+#Abstracted class person
 
 from abc import ABC, abstractmethod
 
