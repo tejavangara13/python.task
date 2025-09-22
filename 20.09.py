@@ -1,3 +1,9 @@
+# Today's assignment:
+
+# Wap to check if each number in an  list contains duplicate digits, returning true for duplicates and false for unique digits.
+# Input: [202,89,112,88]       	Output:[true ,false ,true ,true]
+
+# Sum of all numbers in a matrix.
 def has_duplicate_digits(num):
     digits = str(num)               
     for i in range(len(digits)):     
