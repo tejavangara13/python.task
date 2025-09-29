@@ -39,7 +39,7 @@ for i in range(n):
     matrix[i][n-i-1]=0
 for row in matrix:
     print(row) 
-
+#
 s=[
     [1,3,9,2],
     [3,1,2,4],
