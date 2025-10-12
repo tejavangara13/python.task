@@ -1,4 +1,4 @@
-#negative,positive and zero check the numbers
+# negative,positive and zero check the numbers
 # def check_num_status(num):
 #     if num>0:
 #         print('positive')
@@ -22,19 +22,19 @@
 # n1=check_num_status(8)
 # print(n1)
 
-#ever or add check
+# # ever or add check
 # def check_even_or_odd(num1):
 #     res='even'if num1%2==0 else 'odd'
 #     print(res)
 # check_even_or_odd(9)
 
-#the gretest of two numbers with using terminal
+# # the gretest of two numbers with using terminal
 
 # def check_gretest(num1,num2):
 #     return num1 if num1>num2 else num2
 # print(check_gretest(-5,2))
 
-#without using terminal
+# # without using terminal
 
 # def check_gretest(num1,num2):
 #     if num1>num2:
@@ -58,8 +58,8 @@
 #     print('friday')
 # elif num==6:
 #     print('saturday') 
-# 
-# 
+
+
 # num=int(input('Enter a month no:'))
 # if num==1:
 #     print('january')
@@ -103,16 +103,15 @@
 #     print(ch, "is a vowel.")
 # else:
 #     print(ch, "is a consonant.") 
-# 
-# def Grade_Calculator(marks):
-#   print('Grade: A' if marks >= 90 else 
-#            'Grade: B' if marks >= 80 else 
-#            'Grade: C' if marks >= 70 else 
-#            'Fail')
 
-# marks = int(input("Enter marks: "))
-# Grade_Calculator(marks)  
-# 
+def Grade_Calculator(marks):
+  print('Grade: A' if marks >= 90 else 
+           'Grade: B' if marks >= 80 else 
+           'Grade: C' if marks >= 70 else 
+           'Fail')
+
+marks = int(input("Enter marks: "))
+Grade_Calculator(marks)  
 a = float(input("Enter first side: "))
 b = float(input("Enter second side: "))
 c = float(input("Enter third side: "))

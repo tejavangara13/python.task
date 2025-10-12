@@ -41,19 +41,19 @@
 # print(reverse_str(s))
 
 
-s = "Hello World"
-vowels = consonants = spaces = 0
-for ch in s.lower():
-    if ch in "aeiou":
-        vowels += 1
-    elif ch == " ":
-        spaces += 1
-    elif ch.isalpha():
-        consonants += 1
+# s = "Hello World"
+# vowels = consonants = spaces = 0
+# for ch in s.lower():
+#     if ch in "aeiou":
+#         vowels += 1
+#     elif ch == " ":
+#         spaces += 1
+#     elif ch.isalpha():
+#         consonants += 1
 
-print("Vowels:", vowels)
-print("Consonants:", consonants)
-print("Spaces:", spaces)
+# print("Vowels:", vowels)
+# print("Consonants:", consonants)
+# print("Spaces:", spaces)
 
 
 

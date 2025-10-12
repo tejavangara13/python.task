@@ -64,7 +64,7 @@ class Sample:
     def show(self):
         print("Name is:", self.name)
 
-obj = Sample("Tejaswi")
+obj = Sample("Tejasai")
 obj.show()   
 
 
